@@ -1,0 +1,14 @@
+name: Validate policies
+description: Validate the set of policies in a repo
+inputs:
+  mode:  # The kind of config location: user, repo, org, enterprise
+    description: The kind of config location to validate
+    required: false
+    default: org
+outputs:
+  valid:
+    description: whether or not the checks pass
+
+runs:
+  using: node12
+  main: index.js

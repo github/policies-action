@@ -1,0 +1,29 @@
+{
+  "name": "policies-action",
+  "version": "1.0.0",
+  "description": "This action validates the set of polices in a location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"test/**/*.js\" --timeout 20000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github/policies-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/github/policies-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.0",
+    "@actions/github": "^1.1.0",
+    "js-yaml": "^3.13.1",
+    "pluralize": "^8.0.0",
+    "recursive-readdir": "^2.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "proxyquire": "^2.1.3",
+    "sinon": "^9.0.2"
+  }
+}
