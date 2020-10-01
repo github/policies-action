@@ -15,7 +15,7 @@
   "license": "ISC",
   "homepage": "https://github.com/github/policies-action#readme",
   "dependencies": {
-    "@actions/core": "^1.1.0",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^1.1.0",
     "js-yaml": "^3.13.1",
     "pluralize": "^8.0.0",
